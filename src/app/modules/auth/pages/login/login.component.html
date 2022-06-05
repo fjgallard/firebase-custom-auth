@@ -1,1 +1,8 @@
-<auth-phone-login-form></auth-phone-login-form>
+<div class="content" *ngIf="user$ | async as user; else loginForm ">
+  Logged in!
+</div>
+
+<ng-template #loginForm>
+  <auth-phone-login-form></auth-phone-login-form>
+</ng-template>
+
