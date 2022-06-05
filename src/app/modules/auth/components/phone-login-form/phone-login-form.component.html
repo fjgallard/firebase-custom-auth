@@ -1,0 +1,13 @@
+<div class="form flex-col" [formGroup]="form">
+  <mat-form-field appearance="fill">
+    <mat-label>Phone number</mat-label>
+    <input
+    matInput
+    class="example-tel-input-element"
+    formControlName="tel"
+    aria-label="Area code"
+    #area>
+  </mat-form-field>
+
+  <button mat-stroked-button color="primary">Submit</button>
+</div>
