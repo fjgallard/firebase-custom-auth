@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "kokebrew": {
+      "hosting": {
+        "phone-auth": [
+          "kokebrew"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "kokebrew"
+  }
+}
